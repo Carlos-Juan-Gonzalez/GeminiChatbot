@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campo de Texto Centrado</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/light_theme.css')}}" id="theme_css">
+</head>
+<body>
+  <div id="header_container">
+    <div class="header_part">
+      <button class="header_button">HOME</button>
+      <button class="header_button">CV</button>
+      <button class="header_button">GIT</button>
+    </div>
+    <div class="header_part">
+      <button class="header_button" id="theme"><img src="{{url_for('static',filename='images/sun.svg')}}" alt="sun" id="theme_icon"></button>
+    </div>
+  </div>
+  
+  <div id="main_container_start">
+    <div id="messageContainer"></div>
+    <input type="text" placeholder="Preguntame algo..." id="userInput" class="centered">
+  </div>
+  
+  <script src="{{url_for('static',filename='js/script.js')}}"></script>
+</body>
+</html>

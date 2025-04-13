@@ -1,0 +1,42 @@
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    color: #333;
+}
+
+input[type="text"] {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.header_button {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    border-radius: 15px;
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.header_button:hover {
+    background-color: #ddd; /* Fondo claro al hacer hover */
+    transform: scale(1.1);
+}
+
+.user_message {
+    background: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.system_message {
+    background: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

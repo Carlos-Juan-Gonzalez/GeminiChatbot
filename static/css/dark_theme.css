@@ -1,0 +1,50 @@
+body {
+    background-color: #333;
+    color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #444;
+    color: #f4f4f4;
+}
+
+input[type="text"] {
+    background-color: #555;
+    color: #f4f4f4;
+    border: 1px solid #888;
+}
+
+::-webkit-input-placeholder {
+    color: #f4f4f4;
+}
+
+.header_button {
+    background-color: transparent;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 15px;
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.header_button:hover {
+    background-color: #666; /* Fondo oscuro al hacer hover */
+    transform: scale(1.1);
+}
+
+.user_message {
+    background-color: #555;
+    border: 1px solid #888;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #f4f4f4;
+}
+
+.system_message {
+    background-color: #555;
+    border: 1px solid #888;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: #f4f4f4;
+}
